@@ -3,3 +3,17 @@
 .make/
 .env
 *.iml
+
+# Python artifacts
+*.py[cod]
+*.log
+*.txt
+local_settings.py
+db.sqlite3
+__pycache__/
+
+# VS Code settings
+.vscode/
+
+# pyenv artifacts
+.python-version
