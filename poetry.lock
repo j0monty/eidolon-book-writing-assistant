@@ -1369,13 +1369,13 @@ pydantic = ">=2.5.2,<3.0.0"
 
 [[package]]
 name = "eidolon-ai-sdk"
-version = "0.1.78"
+version = "0.1.79"
 description = "An open source sgent service SDK"
 optional = false
 python-versions = "<3.13,>=3.11"
 files = [
-    {file = "eidolon_ai_sdk-0.1.78-py3-none-any.whl", hash = "sha256:3c770bbd988435ca02cd7d0cf133649a4e75eaab41369af7fa93783d8fd0cf46"},
-    {file = "eidolon_ai_sdk-0.1.78.tar.gz", hash = "sha256:05685bbcf1ebf9c30cbcf90f0c082cfd099a1b85daf74b386da7bbadaa6dff86"},
+    {file = "eidolon_ai_sdk-0.1.79-py3-none-any.whl", hash = "sha256:36fbd766dba918326c4a6e5199820640ce48b61b44ac72118d337716b951461a"},
+    {file = "eidolon_ai_sdk-0.1.79.tar.gz", hash = "sha256:753570b82916270f4c27abd47660442c0fb9f685599db4513f2d9731bc877711"},
 ]
 
 [package.dependencies]
@@ -1995,7 +1995,6 @@ files = [
 name = "jsonpath-ng"
 version = "1.6.1"
 description = "A final implementation of JSONPath for Python that aims to be standard compliant, including arithmetic and binary comparison operators and providing clear AST for metaprogramming."
-category = "main"
 optional = false
 python-versions = "*"
 files = [
@@ -2833,7 +2832,6 @@ signedtoken = ["cryptography (>=3.0.0)", "pyjwt (>=2.0.0,<3)"]
 name = "ollama"
 version = "0.2.1"
 description = "The official Python client for Ollama."
-category = "main"
 optional = false
 python-versions = "<4.0,>=3.8"
 files = [
@@ -3312,7 +3310,6 @@ testing = ["pytest", "pytest-benchmark"]
 name = "ply"
 version = "3.11"
 description = "Python Lex & Yacc"
-category = "main"
 optional = false
 python-versions = "*"
 files = [
@@ -3780,7 +3777,6 @@ zstd = ["zstandard"]
 name = "pymupdf"
 version = "1.24.5"
 description = "A high performance Python library for data extraction, analysis, conversion & manipulation of PDF (and other) documents."
-category = "main"
 optional = false
 python-versions = ">=3.8"
 files = [
@@ -3824,7 +3820,6 @@ PyMuPDFb = "1.24.3"
 name = "pymupdfb"
 version = "1.24.3"
 description = "MuPDF shared libraries for PyMuPDF."
-category = "main"
 optional = false
 python-versions = ">=3.8"
 files = [
@@ -5738,4 +5733,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<3.13"
-content-hash = "469dc621327efdf3b2cee8453d069f6c18040e197155330dcd9682d3d840fff1"
+content-hash = "2bcc91b9110c5b5b5cc460e1401f6e45c930b93bf5ea0a354e5b44400bf4d9e8"
