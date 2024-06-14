@@ -1995,6 +1995,7 @@ files = [
 name = "jsonpath-ng"
 version = "1.6.1"
 description = "A final implementation of JSONPath for Python that aims to be standard compliant, including arithmetic and binary comparison operators and providing clear AST for metaprogramming."
+category = "main"
 optional = false
 python-versions = "*"
 files = [
@@ -2832,6 +2833,7 @@ signedtoken = ["cryptography (>=3.0.0)", "pyjwt (>=2.0.0,<3)"]
 name = "ollama"
 version = "0.2.1"
 description = "The official Python client for Ollama."
+category = "main"
 optional = false
 python-versions = "<4.0,>=3.8"
 files = [
@@ -3310,6 +3312,7 @@ testing = ["pytest", "pytest-benchmark"]
 name = "ply"
 version = "3.11"
 description = "Python Lex & Yacc"
+category = "main"
 optional = false
 python-versions = "*"
 files = [
@@ -3777,6 +3780,7 @@ zstd = ["zstandard"]
 name = "pymupdf"
 version = "1.24.5"
 description = "A high performance Python library for data extraction, analysis, conversion & manipulation of PDF (and other) documents."
+category = "main"
 optional = false
 python-versions = ">=3.8"
 files = [
@@ -3820,6 +3824,7 @@ PyMuPDFb = "1.24.3"
 name = "pymupdfb"
 version = "1.24.3"
 description = "MuPDF shared libraries for PyMuPDF."
+category = "main"
 optional = false
 python-versions = ">=3.8"
 files = [
@@ -5732,5 +5737,5 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 
 [metadata]
 lock-version = "2.0"
-python-versions = ">=3.11,<3.12"
-content-hash = "6a55cc9853e17d03a56e36ad7ee1d52e0d6e7c94a9468c04e64f50f74d295ae1"
+python-versions = ">=3.11,<3.13"
+content-hash = "469dc621327efdf3b2cee8453d069f6c18040e197155330dcd9682d3d840fff1"
