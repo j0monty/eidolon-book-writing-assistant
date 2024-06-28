@@ -1513,13 +1513,13 @@ pydantic = ">=2.5.2,<3.0.0"
 
 [[package]]
 name = "eidolon-ai-sdk"
-version = "0.1.85"
+version = "0.1.86"
 description = "An open source sgent service SDK"
 optional = false
 python-versions = "<3.13,>=3.11"
 files = [
-    {file = "eidolon_ai_sdk-0.1.85-py3-none-any.whl", hash = "sha256:f8b72392fbd4b138a166055a89cf48bb17c11649492ed178a4837096f3dc162d"},
-    {file = "eidolon_ai_sdk-0.1.85.tar.gz", hash = "sha256:d45c4d7fdad6265a9e08416c25e7e53d6f3dfc6935ad6949068e7c9a192dfacf"},
+    {file = "eidolon_ai_sdk-0.1.86-py3-none-any.whl", hash = "sha256:3cdc98ab68977e94dad90acf56f780fdd17590c876dfbe48a8198e896f3bec35"},
+    {file = "eidolon_ai_sdk-0.1.86.tar.gz", hash = "sha256:29cfa9132075132569aa5c0971ddaf98b305c702adb569b466b4c19de000caa3"},
 ]
 
 [package.dependencies]
@@ -1545,7 +1545,7 @@ jinja2 = ">=3.1.3,<4.0.0"
 jsonpath-ng = ">=1.6.1,<2.0.0"
 jsonref = ">=1.1.0,<2.0.0"
 jsonschema = ">=4.21.1,<5.0.0"
-lxml = ">=5.1.0,<6.0.0"
+lxml = ">=4.9.3,<6.0.0"
 motor = ">=3.3.2,<4.0.0"
 numpy = ">=1.26.3,<2.0.0"
 ollama = ">=0.2.0,<0.3.0"
@@ -6318,4 +6318,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<3.13"
-content-hash = "be7b6a3c4056f030cc39e42255f3d86fbe31ebf77c0e30d3388e942132e6fb03"
+content-hash = "69ed45e747bd546bfaf318e7f2e7610464798c12b7e0f51c210e7744d5097e5e"
